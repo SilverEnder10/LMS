@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- css -->
+    <link rel="stylesheet" href="./css/stile menu a tendina.css" />
+    <link rel="stylesheet" href="css/calendario.css">
+    <!-- Boxicons css -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav>
+      <!-- Tre linee-->
+      <div class="logo">
+        <i class="bx bx-menu menu-icon"></i>
+        <!-- Scritta U&Healtz-->
+        <span class="logo-name">U&Healtz</span>
+
+      </div>
+      <!-- Pulsante menu a sinistra-->
+      <div class="sidebar">
+        <div class="logo">
+          <i class="bx bx-menu menu-icon"></i>
+          <span class="logo-name">U&Healtz</span>
+        </div>
+        <!-- Contenuto menu a sinistra-->
+        <div class="sidebar-content">
+          <ul class="lists">
+            <li class="list">
+              <!-- Pulsante home-->
+              <a href="./home.html" class="nav-link">
+                <i class="bx bx-home-alt icon"></i>
+                <span class="link">Home</span>
+              </a>
+            </li>
+            <!-- Pulsante calendario-->
+            <li class="list">
+              <a href="./calendario.html" class="nav-link">
+                <i class='bx bxs-calendar icon' ></i>
+                <span class="link">Calendario</span>
+              </a>
+            </li>
+            <!-- Pulsante anagrafica-->
+            <li class="list">
+              <a href="./anagrafica.html" class="nav-link">
+                <i class='bx bxs-analyse icon'></i>
+                <span class="link">Anagrafica</span>
+              </a>
+            </li>
+            <li class="list">
+              <!-- Pulsante account-->
+              <a href="./account.html" class="nav-link">
+                <i class='bx bxs-user-account icon'></i>
+                <span class="link">Account</span>
+              </a>
+            </li>
+        </div>
+      </div>
+      </div>
+      <div class="contenuto">
+        <div class="testo">
+          <!-- Calendario -->
+          <div class="container">
+            <div class="left">
+              <div class="calendar">
+                <div class="month">
+                  <i class="fas fa-angle-left prev"></i>
+                  <div class="date">marzo 2023</div>
+                  <i class="fas fa-angle-right next"></i>
+                </div>
+                <div class="weekdays">
+                  <div>Dom</div>
+                  <div>Lun</div>
+                  <div>Mar</div>
+                  <div>Mer</div>
+                  <div>Gio</div>
+                  <div>Ven</div>
+                  <div>Sab</div>
+                </div>
+                <div class="days"></div>
+                <div class="goto-today">
+                  <div class="goto">
+                    <input type="text" placeholder="mese/anno" class="date-input" />
+                    <button class="goto-btn">Vai</button>
+                  </div>
+                  <button class="today-btn">Oggi</button>
+                </div>
+              </div>
+            </div>
+            <div class="right">
+              <div class="today-date">
+                <div class="event-day">Dom</div>
+                <div class="event-date">12 marzo 2023</div>
+              </div>
+              <div class="events"></div>
+              <div class="add-event-wrapper">
+                <div class="add-event-header">
+                  <div class="title">Aggiungi evento</div>
+                  <i class="fas fa-times close"></i>
+                </div>
+                <div class="add-event-body">
+                  <div class="add-event-input">
+                    <input type="text" placeholder="Nome evento" class="event-name" />
+                  </div>
+                  <div class="add-event-input">
+                    <input
+                      type="text"
+                      placeholder="Dalle ore..."
+                      class="event-time-from"
+                    />
+                  </div>
+                  <div class="add-event-input">
+                    <input
+                      type="text"
+                      placeholder="Alle ore..."
+                      class="event-time-to"
+                    />
+                  </div>
+                </div>
+                <div class="add-event-footer">
+                  <button class="add-event-btn">Aggiungi evento</button>
+                </div>
+              </div>
+            </div>
+            <button class="add-event">
+              <i class="fas fa-plus"></i>
+            </button>
+          </div>
+          <script src="js/calendario.js"></script>
+        </div>
+      </div>
+    </nav>
+    <section class="overlay"></section>
+<!-- javascript -->
+    <script src="./js/javascript menu a tendina.js"></script>
+  </body>
+</html>
+

@@ -1,0 +1,413 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    /*border: 1px solid white;*/
+
+}
+
+body, html {
+
+    height: 100%;
+    width: 100%;
+    background-color: #141414;
+    /*border: 1px solid white;*/
+
+}
+
+.area {
+
+    width: 100%;
+    height: 100%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    /*border: 1px solid white;*/
+
+}
+
+.box {
+
+    float: left;
+    justify-self: center;
+    align-items: center;
+    /*border: 1px solid white;*/
+
+}
+
+.box0 {
+
+    height: 150px;
+    position: sticky;
+    top: 0%;
+    z-index: 1000;
+    box-shadow: 0px 4px 4px #181818;
+    background-color: red;
+    background-color: #181818;
+    /*border: 1px solid white;*/
+    
+}
+
+.banner-img {
+
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    filter: brightness(40%);
+    position: relative;
+    /*border: 1px solid white;*/
+    
+}
+
+.titolo-img {
+
+    width: 100%;
+    height: fit-content;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: rockwell;
+    font-size: 20px;
+    /*border: 1px solid white;*/
+    
+}
+
+.box1 {
+
+    width: 100%;
+    height: 800px;
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    background-color: #282828;
+    /*border: 1px solid white;*/
+    
+}
+
+.login {
+
+    text-align: center;
+    width: 10%;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: roboto;
+    padding: 15px 25px;
+    cursor: pointer;
+    color: #ffffff;
+    background-color: #808080;
+    border:  1px solid #181818;
+    outline: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #181818;
+    /*border: 1px solid white;*/
+
+}
+
+.login:hover {
+    
+    background-color: #1167b1;
+
+}
+
+.login:active {
+
+  background-color: #1167b1;
+  box-shadow: 0 5px #03254c;
+  transform: translateY(4px);
+
+}
+
+/*.box2 {
+
+    width: 25%;
+    height: 350px;
+    position: relative;
+    background-color: yellow;
+    background-color: #282828;
+    /*border: 1px solid white;
+
+}*/
+
+/*.immagine1 {
+
+    width: 100%;
+    height: 350px;
+    position: relative;
+    /*border: 1px solid white;
+
+}*/
+
+/*.img1 {
+
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /*border: 1px solid white;
+
+}*/
+
+/*.box3 {
+
+    width: 25%;
+    height: 350px;
+    position: relative;
+    background-color: green;
+    background-color: #282828;
+    /*border: 1px solid white;
+
+}*/
+
+/*.immagine2 {
+
+    width: 100%;
+    height: 350px;
+    position: relative;
+    /*border: 1px solid white;
+
+}*/
+
+/*.img2 {
+
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /*border: 1px solid white;
+
+
+}*/
+
+/*.box4 {
+
+    width: 25%;
+    height: 350px;
+    background-color: blue;
+    background-color: #282828;
+    /*border: 1px solid white;
+
+
+}*/
+
+/*.immagine3 {
+
+    width: 100%;
+    height: 350px;
+    position: relative;
+    /*border: 1px solid white;
+    
+}*/
+
+/*.img3 {
+
+    width: 110px;
+    height: 110px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /*border: 1px solid white;
+
+}*/
+
+/*.box5 {
+
+    width: 25%;
+    height: 350px;
+    background-color: cyan;
+    background-color: #282828;
+    /*border: 1px solid white;
+
+}*/
+
+/*.t-profilo {
+
+    text-align: center;
+    position: relative;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: roboto;
+    width: 100%;
+    height: fit-content;
+    color: #ffffff;
+    padding: 35px 0px 5px 0px;
+    /*border: 1px solid white;
+
+
+}*/
+
+/*.t-tecnico {
+
+    text-align: center;
+    position: relative;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: roboto;
+    width: 100%;
+    height: fit-content;
+    padding: 5px 0px 5px 0px;
+    color: #ffffff;
+    /*border: 1px solid white;
+
+}*/
+
+/*.t-descrizione {
+
+    text-align: justify;
+    position: relative;
+    font-size: 18px;
+    font-family: roboto;
+    width: 100%;
+    height: fit-content;
+    padding: 5px 0px 35px 0px;
+    color: #ffffff;
+    /*border: 1px solid white;
+
+}*/
+
+/*.box6 {
+
+    width:25%;
+    height: 350px;
+    background-color: brown;
+    background-color: #282828;
+    /*border: 1px solid white;
+
+}*/
+
+/*.immagine4 {
+
+    width: 100%;
+    height: 350px;
+    position: relative;
+    /*border: 1px solid white;
+
+}*/
+
+/*.img4 {
+
+    width: 110px;
+    height: 110px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 60px;
+    /*border: 1px solid white;
+
+}*/
+
+/*.box7 {
+
+    width: 25%;
+    height: 350px;
+    background-color: pink;
+    background-color: #282828;
+    /*border: 1px solid white;
+
+}*/
+
+/*.immagine5 {
+
+    width: 100%;
+    height: 350px;
+    position: relative;
+    /*border: 1px solid white;
+
+}*/
+
+/*.img5 {
+
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /*border: 1px solid white;
+
+}*/
+
+/*.box8 {
+
+    width: 25%;
+    height: 350px;
+    background-color: purple;
+    background-color: #282828;
+    /*border: 1px solid white;
+
+}*/
+
+/*.t-info {
+
+    text-align: center;
+    position: relative;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: roboto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: fit-content;
+    color: #ffffff;
+    padding: 0px 0px 10px 0px;
+    /*border: 1px solid white;
+
+}*/
+
+/*.t-sito {
+
+    text-align: center;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+    font-family: roboto;
+    width: 100%;
+    height: fit-content;
+    padding: 10px 0px 0px 0px;
+    color: #ffffff;
+    /*border: 1px solid white;
+    
+}*/
+
+.box9 {
+
+    width: 100%;
+    height: 100px;
+    background-color: grey;
+    display: flex;
+    flex-direction: column-reverse;
+    background-color: #282828;
+    /*border: 1px solid white;*/
+
+}
+
+
+.t-footer {
+
+
+    text-align: center;
+    position: relative;
+    font-size: 20px;
+    font-family: 'Times New Roman';
+    width: 100%;
+    height: fit-content;
+    color: #ffffff;
+    top: 25%;
+    /*border: 1px solid white;*/
+   
+}  
+
+
